@@ -1,0 +1,507 @@
+/* font-family: 'Open Sans', sans-serif;
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* Burger menu */
+.burger{
+    top:30px;
+    right: 405px;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: #F7654A;
+    cursor:pointer;
+
+
+}
+.bar1{
+    width: 21px;
+    height: 4px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 14px;
+    left: 14px;
+    border-radius: 2px;
+}
+.bar2{
+    width: 21px;
+    height: 4px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 23px;
+    left: 14px;
+    border-radius: 2px;
+}
+.bar3{
+    width: 21px;
+    height: 4px;
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 32px;
+    left: 14px;
+    border-radius: 2px;
+}
+
+/* LOGO1 */
+.logo1{
+    position: absolute;
+    left: 405px;
+    top: 20px;
+    width: 60px;
+    height: 60px;
+    cursor:pointer;
+}
+.circ1{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    border: 4px solid #F7654A;
+    border-radius: 50% 50% 50% 0;
+}
+.circ2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    width: 40px;
+    border: 4px solid #F7654A;
+    border-radius: 50% 0 50% 50% ;
+
+}
+
+
+
+/* Style */
+
+
+
+.wraper{
+    width: 1920px;
+}
+
+.header-bg{
+    width: 1920px;
+    height: 740px;
+    background: url('../img/headerBg.jpg');
+    position: relative;
+}
+.header-content{
+    width: 740px;
+    margin: 0 auto;
+    padding-top: 192px;
+}
+.header-content h1{
+    
+    text-align: center;
+    
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 95px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header-content h3{
+    margin-top: 35px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.our-project{
+    position: relative;
+    padding-top: 250px;
+    padding-bottom: 150px;
+}
+
+.big-project-card{
+    width: 350px;
+    text-align: left;
+    
+}
+.big-projects{
+    text-align: center;
+}
+.big-projects h2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.big-project-cards{
+    width: 1110px;
+    margin: 60px auto 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.big-project-card p{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+}
+
+.big-project-card h3{
+    margin-top: 66px;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+.big-project-card h3::before{
+    content: "";
+    position: absolute;
+    width: 55px;
+    height: 6px;
+    top: -15px;
+    background-color: #F7654A;
+}
+
+.project-about{
+    position: absolute;
+    width: 1110px;
+    height: 300px;
+    top:-150px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-color: #fff;
+    padding: 57px 130px
+}
+.project-about-card h2{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #F7654A;
+}
+.project-about-card h3{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+
+}
+.project-about-card p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #999999;
+}
+.project-about-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+.send-mail, .work-with-us{
+    padding: 30px 405px 45px;
+    display: flex;
+    justify-content: space-between;
+    background: #F7654A;
+}
+
+.mailbox-text h2{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.mailbox-text h3{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+
+.sendMail{
+    width: 175px;
+    height: 49px;
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    line-height: 49px;
+    color: #000000;
+    background: #FFFFFF;
+    align-self: center;
+    cursor: pointer;
+}
+.sendMail img{
+    margin-right: 15px;
+}
+
+
+
+.about-us{
+    padding: 150px 405px;
+    text-align: center;
+}
+.about-us h2{
+    margin-bottom: 66px;
+}
+.about-us-cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.about-us-card{
+    width: 350px;
+    height: 250px;
+    padding: 59px 85px;
+    
+}
+.about-us-card img {
+    margin-bottom: 30px;
+}
+
+
+
+
+.photos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 0;
+}
+.photos img{
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.photos img:hover{
+    opacity: 0.95;
+    transform: scale(1.02);
+}
+
+
+
+.questions{
+    padding: 150px 405px;
+}
+.questions h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    }
+.question{
+    margin-bottom: 40px;
+}
+.text-question{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    overflow: hidden;
+    color: #999999;
+    max-height: 0px;
+    max-width: 730px;
+    transition: all 0.5s ease-in; 
+}
+
+.tittle-qustion{
+    cursor: pointer;
+    position: relative;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+    
+}
+.text-question.on{
+    max-height: 100px;
+    
+}
+.tittle-qustion img{
+    position: absolute;
+    left: -26px;
+    top: 11px;
+    transform: rotate(0deg);
+    transition: all 0.3s ease-in;
+
+}
+.tittle-qustion img.on{
+    transform: rotate(90deg);
+
+}
+
+
+
+.partners {
+    padding: 100px 405px;
+    background: #404149;
+}
+.partners h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 60px;
+}
+
+.partners-cards{
+    display: flex;
+    justify-content: space-between;
+}
+
+.reviews{
+    padding: 150px 405px;
+}
+.reviews h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53px;
+    text-transform: uppercase;
+    margin-bottom:65px ;
+color: #000000;
+}
+
+.reviews-cards{
+display: flex;
+justify-content: space-between;
+}
+
+.reviews-card{
+
+    width: 350px;
+
+}
+.reviews-card-content{
+    position: relative;
+    width: 350px;
+    padding: 80px 30px 40px;
+}
+.reviews-card-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: #999999;
+}
+.reviews-card h3{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.reviews-card img{
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+.span-orange-text{
+    color: #F7654A;
+}
+
+
+
+
+.contacts{
+    padding: 100px 405px 150px;
+    text-align: center;
+
+}
+.contacts h2{
+    margin-bottom: 60px;
+    font-weight: 500;
+font-size: 36px;
+line-height: 53px;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.contact-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-card{
+    width: 255px;
+    text-align: center;
+    position: relative;
+    
+}
+.contact-card h3{
+    margin-top: 65px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #999999;
+}
+.contact-card h4{
+    
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+}
+.contact-card img{
+    height: 29px;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50% , 0);
+
+}
+
+
+
+footer{
+    padding: 30px 405px;
+    background: #404149;
+}
+footer h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
