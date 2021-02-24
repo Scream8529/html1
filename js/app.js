@@ -14,8 +14,3 @@ for (let i = 0; i < quests.length; i++) {
 
 
 
-
-
-
-
-
